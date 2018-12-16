@@ -33,3 +33,9 @@ class ListAccounts{
     );
   }
 }
+
+class ListAccountDropDown {
+  String name;
+  String address;
+  ListAccountDropDown({this.name, this.address});
+}
